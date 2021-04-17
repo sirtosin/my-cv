@@ -1,0 +1,161 @@
+*{
+    margin: 15px;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+}
+
+header h1 {
+    text-align: center;
+}
+
+header .profile{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+header hr{
+    border: 1px dashed;
+    font-weight: 0px;
+}
+
+.project{
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+}
+
+.project h2 a{
+    line-height: 2;
+    text-decoration: none;
+    animation: project ease-in-out 5s infinite;
+    color: #333;
+}
+
+.project h2{
+    animation: project ease-in-out 2s infinite;
+}
+
+@keyframes project{
+    0%{
+        transform: scale(.4);
+    }
+
+    100%{
+        transform: scale(.9);
+    }
+}
+
+main section,main aside, .hobbies{
+    height: auto;
+    width: auto;
+    border-radius: 1.3rem;
+    background: #f2f2f2;
+    padding: 15px;
+    margin: 22px;
+}
+
+main section h2, main section h1{
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+main section h3{
+    text-transform: uppercase;
+}
+
+main section h4{
+    opacity: 0.9;
+}
+
+main section h5{
+    text-transform: uppercase;
+    color:grey;
+}
+
+.career{
+    border: 3px solid green;
+}
+
+.career:hover{
+    box-shadow: 0 0 8px #333,
+                0 0 8px #333,
+                0 0 8px #333;
+    transform: scale( .9);
+    border: none;
+}
+
+.skills{
+    border: 3px solid blue;
+}
+
+.skills:hover{
+    box-shadow: 0 0 8px #333,
+                0 0 8px #333,
+                0 0 8px #333;
+    transform: scale( .9);
+    border: none;
+}
+
+aside{
+    border: 3px solid grey;
+}
+
+aside h2{
+    text-decoration: underline;
+}
+
+aside:hover{
+    box-shadow: 0 0 8px #333,
+                0 0 8px #333,
+                0 0 8px #333;
+    transform: scale( .9);
+    border: none;
+}
+
+.experience{
+    border: 3px solid coral;
+}
+
+.experience:hover{
+    box-shadow: 0 0 8px #333,
+                0 0 8px #333,
+                0 0 8px #333;
+    transform: scale( .9);
+    border: none;
+}
+
+.education{
+    border: 3px solid skyblue;
+}
+
+.education:hover{
+    box-shadow: 0 0 8px #333,
+                0 0 8px #333,
+                0 0 8px #333;
+    transform: scale( .9);
+    border: none;
+}
+
+.hobbies{
+    border: 3px solid rgb(127, 247, 47);
+}
+
+.hobbies:hover{
+    box-shadow: 0 0 8px #333,
+                0 0 8px #333,
+                0 0 8px #333;
+    transform: scale( .9);
+    border: none;
+}
+
+.resume{
+    text-align: center;
+    color: #333;
+}
